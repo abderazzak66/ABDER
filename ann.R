@@ -3,7 +3,7 @@
 # Importing the dataset
 dataset = read.csv('Churn_Modelling.csv')
 dataset = dataset[4:14]
-#678789709870
+#aaaaaaaaaaaaaaaaaaaaaaaaaa
 # Encoding the categorical variables as factors
 dataset$Geography = as.numeric(factor(dataset$Geography,
                                       levels = c('France', 'Spain', 'Germany'),
